@@ -81,7 +81,7 @@ var tågdata = [
             },
    
 ]
-
+/*   */
 
 var trainBody = document.getElementById("tåg");   
 function createTrainTable(){
