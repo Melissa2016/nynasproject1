@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/general.css" >
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+    
+	<!-- detta är en tema länk, du hittar fler teman under https://bootswatch.com -->
+    <!-- <link rel="https://maxcdn.bootstrapcdn.com/bootswatch/4.0.0-beta.3/united/bootstrap.min.css" href=" ">-->
+  </head>
+  <body class="pb-5 bg-light sticky-top">
+      <header  > 
+        <h1 > Nickstabadet</h1> 
+          <p><span style='font-weight: bold;'>Ett soligt sommarbad</span></p>
+      </header>
+       
+  <nav class="navbar navbar-expand-md navbar-light bg-white sticky-top mb-2">
+    <div class="collapse navbar-collapse" id="cat-navbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link " href="#">Hem</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Kontakt</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link bg-dark  text-white "  href="#">Väder</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Tillbacks</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+   <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <article class="card"> 
+          <h3>Åker tågen</h3>  
+      <div id ="forms">
+            <form action ="#">
+                <label >Jag åker ifrån: </label>
+                   <input type="text" id="Input"  placeholder="city">
+                      <button type="submit" id="bsubmit"  class="btn btn-primary mb-2">Sök</button> 
+            </form>   
+        </div>
+          <table  id ="tågTable" class="table table-striped">
+             <thead class="bg-dark  text-white">
+                <tr>
+                  <th>Nr</th>
+                  <th>Avgång</th>
+                  <th>Ankommer</th>
+                </tr>
+             </thead>
+      <tbody id ="tåg">  
+
+      </tbody>
+        </table>
+          <div id ="para">
+             <p> Inga problem i trafiken</p>
+             <label id ="outputcity" > Åker från:</label>
+          </div>              
+    </article>
+       </div>            
+  <div class="col-lg-6 mt-3 mt-md-0">
+          <article class="card">
+               <h3>Vädret på Nicksta</h3>
+               <table class="table table-striped">
+                  <thead class="bg-dark  text-white">
+                    <tr>
+                      <th>Klocka</th>
+                      <th>Väder</th>
+                      <th>Värme</th>
+                      <th>Vind</th>
+                   </tr>
+                  </thead>
+      <tbody id="weather-data"> 
+
+      </tbody>
+        </table>        
+     </article>
+     </div>
+  </div>
+ </div>
+      
+   <div id ="footer">
+       <footer>
+            Vill du veta mer?Skicka e-post till<a href="">Kavzor@gmail.com</a>
+       </footer>
+    </div>
+             
+     
+    <script src="status.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>             
+    </body>
+</html>    
