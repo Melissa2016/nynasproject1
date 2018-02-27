@@ -1,7 +1,7 @@
 
 
 'use strict';
-
+/*
 var weatherData = [
     {
         time: "09:00",
@@ -50,7 +50,7 @@ for(var i=0;i<weatherData.length;i++){
     
     tbody.appendChild(tr);
 }
-
+*/
 //console.log( weatherData[1]);
 
 
